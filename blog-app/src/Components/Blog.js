@@ -12,9 +12,6 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
 
 const sections = [
   { title: 'Technology', url: '#' },
@@ -30,10 +27,10 @@ const sections = [
 ];
 
 const mainFeaturedPost = {
-  title: 'Title of a longer featured blog post',
+  title: 'Soccer',
   description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://source.unsplash.com/random',
+    "The most popular sport in the world which you and 10 other players are on a team to try and score againt your opponents by using teamwork to move around other defenders to try and get the ball in the goal",
+  image: 'https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg?q=60',
   imageText: 'main image description',
   linkText: 'Continue reading…',
 };
@@ -44,7 +41,7 @@ const featuredPosts = [
     date: 'Nov 12',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+    image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/166862272_252338859893659_2896898753894081236_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=973b4a&_nc_ohc=yAARWWLKki0AX_aqiQr&_nc_ht=scontent-lga3-1.xx&oh=00_AT_VCcUErwOzXpVUmaYGzukt_KtPooXIgkV0Dzr0BcA3oQ&oe=62FE066C',
     imageLabel: 'Image Text',
   },
   {
@@ -52,7 +49,7 @@ const featuredPosts = [
     date: 'Nov 11',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
+    image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/24852308_1539819896128446_3144690897970919535_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=973b4a&_nc_ohc=bWpd9XVtQnMAX_rBPcl&_nc_ht=scontent-lga3-1.xx&oh=00_AT-k6jDrBm3Rxzj2IW7dXLPmxxWzpWUeJA1vZLjqCZmSfA&oe=62FD8109',
     imageLabel: 'Image Text',
   },
 ];
@@ -111,7 +108,7 @@ export default function Blog() {
       </Container>
       <Footer
         title="Footer"
-        description="Something here to give the footer a purpose!"
+        description="I've played soccer since I was 2 years old and have since fallen in love with the sport and do not plan on stopping anytime soon! Go out and give soccer a try!"
       />
     </ThemeProvider>
   );
