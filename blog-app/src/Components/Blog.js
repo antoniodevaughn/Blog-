@@ -29,7 +29,7 @@ const sections = [
 const mainFeaturedPost = {
   title: 'Soccer',
   description:
-    "The most popular sport in the world which you and 10 other players are on a team to try and score againt your opponents by using teamwork to move around other defenders to try and get the ball in the goal",
+    "The most popular sport in the world which you and 10 other players are on a team to try and score againt your opponents by using teamwork to move around other defenders to get the ball in the goal",
   image: 'https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg?q=60',
   imageText: 'main image description',
   linkText: 'Continue reading…',
@@ -37,18 +37,18 @@ const mainFeaturedPost = {
 
 const featuredPosts = [
   {
-    title: 'Featured post',
+    title: 'Messi',
     date: 'Nov 12',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      'Lionel Messi is considered the best soccer player in the world due to his extreme pace, footwork, and field of view',
     image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/166862272_252338859893659_2896898753894081236_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=973b4a&_nc_ohc=yAARWWLKki0AX_aqiQr&_nc_ht=scontent-lga3-1.xx&oh=00_AT_VCcUErwOzXpVUmaYGzukt_KtPooXIgkV0Dzr0BcA3oQ&oe=62FE066C',
     imageLabel: 'Image Text',
   },
   {
-    title: 'Post title',
+    title: 'Ronaldo',
     date: 'Nov 11',
     description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
+      'Christiano Ronaldo is considered to be one of if not the best soccer player in the world due to his speed, footwork and powerful shot.',
     image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/24852308_1539819896128446_3144690897970919535_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=973b4a&_nc_ohc=bWpd9XVtQnMAX_rBPcl&_nc_ht=scontent-lga3-1.xx&oh=00_AT-k6jDrBm3Rxzj2IW7dXLPmxxWzpWUeJA1vZLjqCZmSfA&oe=62FD8109',
     imageLabel: 'Image Text',
   },
@@ -59,7 +59,7 @@ const posts = ["Soccer"];
 const sidebar = {
   title: 'About',
   description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+    'I wrote this Blog about soccer because I fell in love with this sport a long time ago and wanted to explain to others what the sport is and try to encourage people to go out and try it, and maybe they will fall in love with it, just as I did.',
   archives: [
     { title: 'March 2020', url: '#' },
     { title: 'February 2020', url: '#' },
